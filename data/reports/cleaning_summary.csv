@@ -1,0 +1,12 @@
+metric,value
+initial_rows,241223
+final_rows,240778
+initial_columns,80
+final_columns,70
+missing_label_rows_removed,1
+duplicate_rows_removed,444
+infinite_values_replaced,1890
+constant_columns_removed,10
+all_zero_columns_removed,0
+remaining_missing_values,0
+remaining_infinite_values,0

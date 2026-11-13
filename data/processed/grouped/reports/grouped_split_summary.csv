@@ -1,0 +1,4 @@
+Dataset,Rows,Unique_Groups,Benign,Attack,Attack_Percentage
+train,168546,152937,168292,254,0.1507
+validation,36117,32780,36063,54,0.14951
+test,36115,32767,36061,54,0.14952

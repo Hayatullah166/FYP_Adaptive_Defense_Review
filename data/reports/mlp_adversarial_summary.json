@@ -1,0 +1,15 @@
+{
+    "training_method": "FGSM adversarial training",
+    "attack_method": "Untargeted FGSM",
+    "training_epsilon": 0.02,
+    "training_examples": "Clean + adversarial",
+    "best_epoch": 19,
+    "best_validation_pr_auc": 0.8148942657024402,
+    "training_time_seconds": 63.324289083480835,
+    "number_of_features": 68,
+    "batch_size": 2048,
+    "max_epochs": 20,
+    "early_stopping_patience": 5,
+    "positive_class_weight": 662.5669555664062,
+    "device": "cpu"
+}

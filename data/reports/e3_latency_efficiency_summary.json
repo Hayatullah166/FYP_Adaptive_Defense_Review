@@ -1,0 +1,76 @@
+{
+    "experiment": "E3 Latency and Efficiency Analysis",
+    "dataset": "CICIDS-2018 grouped validation",
+    "validation_only": true,
+    "independent_test_evaluation": false,
+    "packet_level_latency_measured": false,
+    "threshold": 0.01,
+    "threshold_status": "Provisional validation-selected value",
+    "records": 36117,
+    "features": 68,
+    "fast_records": 36059,
+    "deep_records": 58,
+    "fast_share_percent": 99.83941080377662,
+    "deep_share_percent": 0.1605891962233851,
+    "warmup_runs": 5,
+    "measured_runs": 30,
+    "device": "cpu",
+    "path_latency_method": "Batch-amortized estimate. XGBoost scores the full batch; feature squeezing and MLP operate only on Deep records. These are not independent single-record request timings.",
+    "fast_path_amortized_ms_per_record": 0.0011698240905146373,
+    "deep_path_amortized_ms_per_record": 0.006693156260372156,
+    "xgboost": {
+        "mean_seconds": 0.04225053667711715,
+        "median_seconds": 0.040737050119787455,
+        "std_seconds": 0.00435396851196019,
+        "min_seconds": 0.03944099973887205,
+        "max_seconds": 0.06282259989529848,
+        "mean_milliseconds": 42.250536677117154,
+        "amortized_ms_per_record": 0.0011698240905146373,
+        "records_per_second": 854829.3782871859
+    },
+    "feature_squeezing": {
+        "mean_seconds": 1.6083288937807082e-05,
+        "median_seconds": 1.3199867680668831e-05,
+        "std_seconds": 5.931300121895521e-06,
+        "min_seconds": 1.2899748980998993e-05,
+        "max_seconds": 3.2500363886356354e-05,
+        "mean_milliseconds": 0.016083288937807083,
+        "amortized_ms_per_record": 0.00027729808513460486,
+        "records_per_second": 3606227.5710075106
+    },
+    "deep_mlp": {
+        "mean_seconds": 0.000304269976913929,
+        "median_seconds": 0.00027609989047050476,
+        "std_seconds": 9.950343285228967e-05,
+        "min_seconds": 0.0002310001291334629,
+        "max_seconds": 0.0007873000577092171,
+        "mean_milliseconds": 0.304269976913929,
+        "amortized_ms_per_record": 0.005246034084722914,
+        "records_per_second": 190620.18733582404
+    },
+    "complete_adaptive_pipeline": {
+        "mean_seconds": 0.058777196689819296,
+        "median_seconds": 0.055408150190487504,
+        "std_seconds": 0.006262898910925305,
+        "min_seconds": 0.052367699798196554,
+        "max_seconds": 0.06811490003019571,
+        "mean_milliseconds": 58.7771966898193,
+        "amortized_ms_per_record": 0.0016274108228761883,
+        "records_per_second": 614472.9935079699
+    },
+    "resources": {
+        "psutil_available": true,
+        "rss_before_benchmark_mb": null,
+        "rss_after_benchmark_mb": 391.7734375,
+        "process_cpu_seconds_during_benchmark": null
+    },
+    "limitations": [
+        "Offline validation-batch benchmark.",
+        "Model loading and dataset loading are excluded.",
+        "No live network packet capture or packet processing.",
+        "No independent test-set evaluation.",
+        "Batch-amortized path estimates are not single-record latency.",
+        "CPU and memory observations depend on available system tools."
+    ],
+    "results_csv": "D:\\FYP_Risk_Engine\\data\\reports\\e3_latency_efficiency_results.csv"
+}

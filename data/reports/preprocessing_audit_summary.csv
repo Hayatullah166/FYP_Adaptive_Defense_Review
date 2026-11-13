@@ -1,0 +1,10 @@
+metric,value
+total_rows,241223
+total_columns,80
+missing_cells,944
+infinite_cells,1890
+duplicate_occurrences,444
+rows_in_duplicate_groups,853
+constant_columns_count,4
+all_zero_columns_count,10
+missing_labels,1

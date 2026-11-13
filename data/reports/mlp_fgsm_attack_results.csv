@@ -1,0 +1,9 @@
+attack,epsilon,threshold,threshold_value,total_malicious_records,clean_detected_attacks,evasion_successes,ASR_percent,attack_record_detection_rate_percent
+Clean,0.0,0.50,0.5,54,54,0,0.0,100.0
+Clean,0.0,validation_tuned,0.9297593832015991,54,54,0,0.0,100.0
+Targeted FGSM,0.01,0.50,0.5,54,54,0,0.0,100.0
+Targeted FGSM,0.01,validation_tuned,0.9297593832015991,54,54,13,24.074074074074073,75.92592592592592
+Targeted FGSM,0.02,0.50,0.5,54,54,0,0.0,100.0
+Targeted FGSM,0.02,validation_tuned,0.9297593832015991,54,54,24,44.44444444444444,55.55555555555556
+Targeted FGSM,0.05,0.50,0.5,54,54,0,0.0,100.0
+Targeted FGSM,0.05,validation_tuned,0.9297593832015991,54,54,27,50.0,50.0

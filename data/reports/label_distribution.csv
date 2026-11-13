@@ -1,0 +1,6 @@
+Label,Record Count,Percentage
+Benign,240860,99.8495
+Brute Force -Web,249,0.1032
+Brute Force -XSS,79,0.0327
+SQL Injection,34,0.0141
+,1,0.0004

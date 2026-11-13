@@ -1,0 +1,51 @@
+{
+    "evaluation": "Independent test-set evaluation",
+    "test_records": 36115,
+    "features": 68,
+    "test_used_for_training_or_tuning": false,
+    "risk_model": "XGBoost",
+    "deep_classifier": "Adversarial MLP",
+    "risk_threshold": 0.01,
+    "mlp_threshold": 0.9073078036308289,
+    "feature_squeezing_decimals": 2,
+    "device": "cpu",
+    "final_pipeline_metrics": {
+        "Accuracy": 0.9999169320227053,
+        "Precision": 0.9473684210526315,
+        "Recall": 1.0,
+        "F1": 0.972972972972973,
+        "TN": 36058,
+        "FP": 3,
+        "FN": 0,
+        "TP": 54
+    },
+    "xgboost_standalone_metrics": {
+        "PR_AUC": 0.9959151159861167,
+        "ROC_AUC": 0.9999940943689037,
+        "Brier_Score": 8.308654651045799e-05,
+        "Log_Loss": 0.000783032679464668,
+        "TN": 36058,
+        "FP": 3,
+        "FN": 0,
+        "TP": 54
+    },
+    "deep_path_conditional_metrics": {
+        "Records": 60,
+        "Actual_Attacks": 54,
+        "Actual_Benign": 6,
+        "Accuracy": 0.95,
+        "Precision": 0.9473684210526315,
+        "Recall": 1.0,
+        "F1": 0.972972972972973
+    },
+    "routing": {
+        "Fast_Records": 36055,
+        "Deep_Records": 60,
+        "Fast_Percent": 99.8338640454105,
+        "Deep_Percent": 0.16613595458950575,
+        "Attacks_Routed_Fast": 0,
+        "Attacks_Routed_Deep": 54,
+        "Benign_Routed_Fast": 36055,
+        "Benign_Routed_Deep": 6
+    }
+}

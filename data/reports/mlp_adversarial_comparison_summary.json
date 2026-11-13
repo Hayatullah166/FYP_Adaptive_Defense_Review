@@ -1,0 +1,29 @@
+{
+    "evaluation": "Baseline vs FGSM adversarially trained MLP",
+    "dataset": "CICIDS-2018 grouped validation split",
+    "malicious_validation_records": 54,
+    "attacks": [
+        "Targeted FGSM",
+        "Targeted PGD"
+    ],
+    "epsilons": [
+        0.01,
+        0.02,
+        0.05
+    ],
+    "pgd_steps": 10,
+    "threshold_selection": "Maximum F1 on clean validation data",
+    "model_thresholds": {
+        "Baseline MLP": {
+            "clean_validation_PR_AUC": 0.8778380586660993,
+            "validation_F1_tuned_threshold": 0.9297593832015991,
+            "validation_best_F1": 0.8307692307687451
+        },
+        "Adversarial MLP": {
+            "clean_validation_PR_AUC": 0.8148942657024402,
+            "validation_F1_tuned_threshold": 0.9073078036308289,
+            "validation_best_F1": 0.765957446808038
+        }
+    },
+    "test_dataset_used": false
+}

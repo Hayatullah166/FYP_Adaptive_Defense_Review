@@ -1,0 +1,25 @@
+{
+    "experiment": "XGBoost Risk Engine Feature Importance",
+    "validation_only": true,
+    "records": 36117,
+    "features": 68,
+    "benign_records": 36063,
+    "malicious_records": 54,
+    "baseline_validation_pr_auc": 0.9993203641351789,
+    "permutation_metric": "average_precision",
+    "permutation_repeats": 3,
+    "native_importance_type": "gain",
+    "top_10_combined": [
+        "Dst Port",
+        "Init Fwd Win Byts",
+        "Flow IAT Max",
+        "Bwd Pkts/s",
+        "Bwd IAT Max",
+        "Bwd IAT Std",
+        "RST Flag Cnt",
+        "Flow Byts/s",
+        "Down/Up Ratio",
+        "Bwd IAT Min"
+    ],
+    "interpretation_note": "Feature importance is descriptive, not causal. Correlated features can share or distort importance. Validation-set permutation importance is not independent test-set evidence."
+}

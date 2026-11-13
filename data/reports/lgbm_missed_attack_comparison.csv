@@ -1,0 +1,34 @@
+AttackType,Dst Port,LightGBM_Risk_Score,Feature_Dst Port,Feature_Protocol,Feature_Fwd Pkt Len Min,Feature_Bwd Pkt Len Min,Feature_Fwd PSH Flags
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -Web,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+Brute Force -XSS,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0
+SQL Injection,80.0,0.0,80.0,6.0,0.0,0.0,0.0

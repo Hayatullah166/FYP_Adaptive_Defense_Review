@@ -1,0 +1,43 @@
+attack,epsilon,steps,condition,threshold,threshold_value,total_malicious_records,detected_attacks,evasion_successes,ASR_percent,detection_rate_percent
+Clean,0.0,0,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+Clean,0.0,0,No squeezing,validation_tuned,0.9297593832015991,54,54,0,0.0,100.0
+Clean,0.0,0,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+Clean,0.0,0,1 decimal places,validation_tuned,0.9297593832015991,54,43,11,20.37037037037037,79.62962962962963
+Clean,0.0,0,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+Clean,0.0,0,2 decimal places,validation_tuned,0.9297593832015991,54,54,0,0.0,100.0
+FGSM,0.01,1,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.01,1,No squeezing,validation_tuned,0.9297593832015991,54,41,13,24.074074074074073,75.92592592592592
+FGSM,0.01,1,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.01,1,1 decimal places,validation_tuned,0.9297593832015991,54,37,17,31.48148148148148,68.51851851851852
+FGSM,0.01,1,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.01,1,2 decimal places,validation_tuned,0.9297593832015991,54,41,13,24.074074074074073,75.92592592592592
+PGD,0.01,10,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.01,10,No squeezing,validation_tuned,0.9297593832015991,54,40,14,25.925925925925924,74.07407407407408
+PGD,0.01,10,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.01,10,1 decimal places,validation_tuned,0.9297593832015991,54,35,19,35.18518518518518,64.81481481481481
+PGD,0.01,10,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.01,10,2 decimal places,validation_tuned,0.9297593832015991,54,41,13,24.074074074074073,75.92592592592592
+FGSM,0.02,1,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.02,1,No squeezing,validation_tuned,0.9297593832015991,54,30,24,44.44444444444444,55.55555555555556
+FGSM,0.02,1,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.02,1,1 decimal places,validation_tuned,0.9297593832015991,54,29,25,46.2962962962963,53.70370370370371
+FGSM,0.02,1,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.02,1,2 decimal places,validation_tuned,0.9297593832015991,54,30,24,44.44444444444444,55.55555555555556
+PGD,0.02,10,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.02,10,No squeezing,validation_tuned,0.9297593832015991,54,30,24,44.44444444444444,55.55555555555556
+PGD,0.02,10,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.02,10,1 decimal places,validation_tuned,0.9297593832015991,54,28,26,48.148148148148145,51.85185185185185
+PGD,0.02,10,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.02,10,2 decimal places,validation_tuned,0.9297593832015991,54,30,24,44.44444444444444,55.55555555555556
+FGSM,0.05,1,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.05,1,No squeezing,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0
+FGSM,0.05,1,1 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.05,1,1 decimal places,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0
+FGSM,0.05,1,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+FGSM,0.05,1,2 decimal places,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0
+PGD,0.05,10,No squeezing,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.05,10,No squeezing,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0
+PGD,0.05,10,1 decimal places,0.50,0.5,54,52,2,3.7037037037037033,96.29629629629629
+PGD,0.05,10,1 decimal places,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0
+PGD,0.05,10,2 decimal places,0.50,0.5,54,54,0,0.0,100.0
+PGD,0.05,10,2 decimal places,validation_tuned,0.9297593832015991,54,27,27,50.0,50.0

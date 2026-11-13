@@ -1,0 +1,81 @@
+,Data Type,Missing Values,Infinite Values,Unique Values
+Dst Port,int64,0,0,19032
+Protocol,int64,0,0,3
+Timestamp,str,0,0,30366
+Flow Duration,int64,0,0,136111
+Tot Fwd Pkts,int64,0,0,408
+Tot Bwd Pkts,int64,0,0,596
+TotLen Fwd Pkts,int64,0,0,3919
+TotLen Bwd Pkts,int64,0,0,8995
+Fwd Pkt Len Max,int64,0,0,1263
+Fwd Pkt Len Min,int64,0,0,109
+Fwd Pkt Len Mean,float64,0,0,9813
+Fwd Pkt Len Std,float64,0,0,13653
+Bwd Pkt Len Max,int64,0,0,819
+Bwd Pkt Len Min,int64,0,0,263
+Bwd Pkt Len Mean,float64,0,0,12645
+Bwd Pkt Len Std,float64,0,0,14119
+Flow Byts/s,float64,920,485,138879
+Flow Pkts/s,float64,0,1405,138768
+Flow IAT Mean,float64,0,0,138338
+Flow IAT Std,float64,0,0,113430
+Flow IAT Max,int64,0,0,112391
+Flow IAT Min,int64,0,0,40368
+Fwd IAT Tot,int64,0,0,120330
+Fwd IAT Mean,float64,0,0,121313
+Fwd IAT Std,float64,0,0,86651
+Fwd IAT Max,int64,0,0,110731
+Fwd IAT Min,int64,0,0,54251
+Bwd IAT Tot,int64,0,0,84138
+Bwd IAT Mean,float64,0,0,84551
+Bwd IAT Std,float64,0,0,82887
+Bwd IAT Max,int64,0,0,68143
+Bwd IAT Min,int64,0,0,40363
+Fwd PSH Flags,int64,0,0,2
+Bwd PSH Flags,int64,0,0,1
+Fwd URG Flags,int64,0,0,1
+Bwd URG Flags,int64,0,0,1
+Fwd Header Len,int64,0,0,680
+Bwd Header Len,int64,0,0,1107
+Fwd Pkts/s,float64,0,0,138084
+Bwd Pkts/s,float64,0,0,107907
+Pkt Len Min,int64,0,0,83
+Pkt Len Max,int64,0,0,969
+Pkt Len Mean,float64,0,0,17756
+Pkt Len Std,float64,0,0,19584
+Pkt Len Var,float64,0,0,19639
+FIN Flag Cnt,int64,0,0,2
+SYN Flag Cnt,int64,0,0,2
+RST Flag Cnt,int64,0,0,2
+PSH Flag Cnt,int64,0,0,2
+ACK Flag Cnt,int64,0,0,2
+URG Flag Cnt,int64,0,0,2
+CWE Flag Count,int64,0,0,1
+ECE Flag Cnt,int64,0,0,2
+Down/Up Ratio,int64,0,0,31
+Pkt Size Avg,float64,0,0,17572
+Fwd Seg Size Avg,float64,0,0,9813
+Bwd Seg Size Avg,float64,1,0,12646
+Fwd Byts/b Avg,float64,1,0,2
+Fwd Pkts/b Avg,float64,1,0,2
+Fwd Blk Rate Avg,float64,1,0,2
+Bwd Byts/b Avg,float64,1,0,2
+Bwd Pkts/b Avg,float64,1,0,2
+Bwd Blk Rate Avg,float64,1,0,2
+Subflow Fwd Pkts,float64,1,0,409
+Subflow Fwd Byts,float64,1,0,3920
+Subflow Bwd Pkts,float64,1,0,597
+Subflow Bwd Byts,float64,1,0,8996
+Init Fwd Win Byts,float64,1,0,2150
+Init Bwd Win Byts,float64,1,0,2298
+Fwd Act Data Pkts,float64,1,0,85
+Fwd Seg Size Min,float64,1,0,9
+Active Mean,float64,1,0,24966
+Active Std,float64,1,0,19321
+Active Max,float64,1,0,24642
+Active Min,float64,1,0,16744
+Idle Mean,float64,1,0,39897
+Idle Std,float64,1,0,21301
+Idle Max,float64,1,0,34890
+Idle Min,float64,1,0,37006
+Label,str,1,0,5

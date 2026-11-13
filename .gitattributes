@@ -1,1 +1,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+preprocessing/cicids2018_raw/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/grouped/*.csv filter=lfs diff=lfs merge=lfs -text

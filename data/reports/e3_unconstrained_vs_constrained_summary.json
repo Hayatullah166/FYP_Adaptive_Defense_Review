@@ -1,0 +1,12 @@
+{
+    "experiment": "E3 Unconstrained vs Constrained Comparison",
+    "matched_configurations": 6,
+    "malicious_validation_records_per_configuration": 54,
+    "mean_unconstrained_asr": 95.679012345679,
+    "mean_constrained_asr": 56.79012345679012,
+    "mean_asr_reduction_percentage_points": 38.88888888888887,
+    "validation_only": true,
+    "packet_level_validation": false,
+    "attack_implementation_equivalence_independently_verified": false,
+    "relational_feature_constraints_enforced": false
+}
